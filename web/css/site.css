@@ -1,0 +1,107 @@
+#topSlider .info {
+    background: rgba(0,0,0,.7);
+}
+#topSlider .info .left {
+    margin: 0 4%;
+    position: relative;
+    height: 100%;
+    width: 30%;
+}
+#topSlider .info .left img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*max-height: 100%;*/
+}
+
+section.page {
+    background: #fff;
+}
+.video .item {
+    max-width: 281px;
+    text-align: left;
+}
+.video h3 {
+    text-align: left;
+}
+.video {
+    text-align: center;
+}
+.page-single-artist .item h3:after, .page-single-event .item h3:after {
+    background-color: transparent;
+}
+/*
+.content p {
+    text-indent: 20px;
+}*/
+
+
+
+.modal-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, .7);
+    display: none;
+}
+.modal-content {
+    width: 90%;
+    max-width: 560px;
+    /*padding: 50px;*/
+    background: #fff;
+    margin: 0 auto;
+    transform: translateY(-150%);
+    transition: all .5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.modal-overlay.modal-active + .modal-content {
+    transform: translateY(0);
+}
+.modal-content form {
+    margin-top: 0;
+}
+.modal-content form .form-group {
+    padding-top: 0;
+}
+.modal-overlay .lg-close:after {
+    content: "\e070";
+}
+.modal-overlay .lg-close {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.modal-overlay .modal-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.modal-sub-header {
+    color: #555;
+    font-size:14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.text-left {
+    text-align: left !important;
+}

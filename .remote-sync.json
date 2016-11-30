@@ -1,0 +1,16 @@
+{
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": true,
+  "hostname": "acrux.tk",
+  "port": "22",
+  "target": "/srv/nota/yii2-app",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "root",
+  "password": "NFcy7nffemSE",
+  "watch": [],
+  "transport": "scp"
+}

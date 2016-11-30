@@ -1,0 +1,54 @@
+@media screen and (max-width: 1170px) {
+  body {
+    font-size: 12px;
+  }
+  header.main,
+  footer.main {
+    position: static;
+    background: #000;
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+  header.main a.logo,
+  footer.main a.logo {
+    max-width: 35%;
+    margin-right: 10px;
+  }
+  header.main .social-enter,
+  footer.main .social-enter {
+    max-width: 65%;
+    text-align: center;
+  }
+  header.main .social-enter span,
+  footer.main .social-enter span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  header.main .phone,
+  footer.main .phone {
+    margin-top: 10px;
+  }
+  nav.header-nav {
+    display: none;
+  }
+  #topSlider .info {
+    display: none;
+  }
+  #topSlider .owl-pagination {
+    display: none;
+  }
+  section.news .item {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  section.news .item img {
+    width: 30%;
+  }
+  section.news .item .right {
+    width: 65%;
+  }
+  section.news .item .date {
+    font-size: 9px;
+  }
+}
